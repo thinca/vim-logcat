@@ -97,7 +97,7 @@ elseif b:logcat_format ==# 'thread'
 elseif b:logcat_format ==# 'raw'
   " Can not highlight...
 elseif b:logcat_format ==# 'time'
-  call s:define_level('^.\{-}%s/.*$')
+  call s:define_level('^\d\d-\d\d \d\d:\d\d:\d\d.\d\d\d %s/.*$')
   syntax cluster logcatItem add=logcatLineHead
   syntax match logcatLineHead /^/ contained nextgroup=logcatTime
   syntax match logcatTag '[VDIWEF]/[^:]\+:'ms=s+2,me=e-1 contained contains=logcatProcess
