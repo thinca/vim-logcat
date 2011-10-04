@@ -13,7 +13,8 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 if globpath(&runtimepath, 'plugin/vimshell.vim') !=# ''
-  command! -nargs=* Logcat VimShellInteractive --encoding=utf-8 adb logcat <args>
+  command! -nargs=* -bang Logcat execute <bang>0 ? 'LogcatClear' : ''
+  \        | VimShellInteractive --encoding=utf-8 adb logcat <args>
 endif
 
 if globpath(&runtimepath, 'autoload/vimproc.vim') != ''

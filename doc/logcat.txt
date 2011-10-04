@@ -75,6 +75,9 @@ COMMANDS					*logcat-commands*
 	plugin, this command is not defined.
 	[arguments] is passed to logcat command.  ex: -v time
 
+:Logcat! [arguments]
+	Execute |:LogcatClear| before |:Logcat|.
+
 :LogcatClear					*:LogcatClear*
 	Executes "logcat -c".
 
@@ -91,6 +94,9 @@ b:logcat_no_metainfo				*b:logcat_no_metainfo*
 
 ==============================================================================
 CHANGELOG					*logcat-changelog*
+
+x.x.x	xxxx-xx-xx
+	- |:Logcat| command accepts bang(!).
 
 0.1.0	2011-09-07
 	- Initial version.
