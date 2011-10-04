@@ -1,6 +1,6 @@
 *logcat.txt*	Syntax and trivial utility for logcat(Log of Android).
 
-Version: 0.1.0
+Version: 0.1.1
 Author : thinca <thinca+vim@gmail.com>
 License: Creative Commons Attribution 2.1 Japan License
          <http://creativecommons.org/licenses/by/2.1/jp/deed.en>
@@ -95,7 +95,7 @@ b:logcat_no_metainfo				*b:logcat_no_metainfo*
 ==============================================================================
 CHANGELOG					*logcat-changelog*
 
-x.x.x	xxxx-xx-xx
+0.1.1	2011-10-04
 	- |:Logcat| command accepts bang(!).
 
 0.1.0	2011-09-07
