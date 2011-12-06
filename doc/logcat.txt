@@ -58,6 +58,7 @@ This plugin supports the following formats.  These are automatically detected.
 - tag
 - thread
 - time
+- threadtime
 - long
 
 "raw" is not supported because the information is too less.
