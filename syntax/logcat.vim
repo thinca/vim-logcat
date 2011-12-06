@@ -1,6 +1,6 @@
 " Vim syntax file
 " Language: logcat (Log of Android)
-" Version: 0.1.1
+" Version: 0.1.2
 " Author : thinca <thinca+vim@gmail.com>
 " License: zlib License
 

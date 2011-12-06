@@ -1,6 +1,6 @@
 *logcat.txt*	Syntax and trivial utility for logcat(Log of Android).
 
-Version: 0.1.1
+Version: 0.1.2
 Author : thinca <thinca+vim@gmail.com>
 License: zlib License
 
@@ -95,7 +95,7 @@ b:logcat_no_metainfo				*b:logcat_no_metainfo*
 ==============================================================================
 CHANGELOG					*logcat-changelog*
 
-Next Version
+0.1.2	2011-12-06
 	- Supported "threadtime" format.
 
 0.1.1	2011-10-04
